@@ -1,0 +1,41 @@
+.wrapLayout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Задает высоту равную минимальной высоте окна браузера */
+    margin: 0;
+}
+.mainHeader {
+    
+    
+        display: flex;
+    
+    
+        align-items:center ;
+        
+ min-width: 200px;
+ max-width: 300px;
+ margin: 0  auto;
+ justify-content: space-around;
+ letter-spacing: 2px;
+      
+        color: palegoldenrod;}
+
+
+   
+        main{
+           
+            flex: 1;
+        
+            background-color: red;
+        
+     
+        }
+
+        footer{    background-color: #333;
+            color: #fff;
+            text-align: center;
+
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;}
